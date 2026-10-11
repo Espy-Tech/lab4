@@ -1,0 +1,112 @@
+:root {
+    --page-bg: #f2f7f6;
+    --deep-teal: #134b52;
+    --soft-teal: #e7f1ef;
+    --link-color: #145a63;
+}
+
+body {
+    background: linear-gradient(180deg, #eaf4f2 0%, var(--page-bg) 18rem);
+    color: #1f2937;
+    line-height: 1.6;
+}
+
+.site-header,
+.site-nav,
+.site-footer {
+    background-color: var(--deep-teal);
+}
+
+.site-header h1,
+.section-title {
+    font-family: "Isometra", Georgia, serif;
+}
+
+.site-logo {
+    border: 2px solid #547f75;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(22, 120, 80, 0.2);
+}
+
+.site-nav {
+    border-bottom: 5px solid #547f75;
+}
+
+.site-nav .nav-link {
+    border-radius: 999px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.site-nav .nav-link:hover,
+.site-nav .nav-link:focus {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #fff;
+}
+
+.card {
+    border-color: #dfe7e5;
+    border-radius: 1rem;
+}
+
+.section-title {
+    border-bottom: 2px solid var(--soft-teal);
+}
+
+a,
+a:visited {
+    color: var(--link-color);
+}
+
+a:hover {
+    color: #0d3d43;
+}
+
+.link-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.table-responsive {
+    border: 1px solid #d7e4e5;
+}
+
+.table {
+    min-width: 36rem;
+}
+
+.table thead th {
+    background-color: var(--deep-teal);
+    color: #fff;
+}
+
+.table tbody tr:last-child > * {
+    background-color: var(--soft-teal);
+    font-weight: 600;
+}
+
+.form-control:focus,
+.form-check-input:focus {
+    border-color: #547f75;
+    box-shadow: 0 0 0 0.25rem rgba(84, 127, 117, 0.2);
+}
+
+.form-check-input:checked {
+    background-color: var(--deep-teal);
+    border-color: var(--deep-teal);
+}
+
+.btn-primary {
+    background-color: var(--deep-teal);
+    border-color: var(--deep-teal);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #255e65;
+    border-color: #255e65;
+}
+
+.site-footer {
+    border-top: 5px solid #547f75;
+}
