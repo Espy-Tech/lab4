@@ -38,33 +38,59 @@
                     <div class="card-body p-3 p-md-4">
                         <h2 class="section-title h4 text-center pb-2 mb-3">Список гиперссылок</h2>
                         <ul class="ps-4 mb-0">
-                            <li class="mb-2"><a href="http://kubsu.ru">Гиперссылка на главную страницу сайта kubsu.ru</a></li>
-                            <li class="mb-2"><a href="https://kubsu.ru">Абсолютная ссылка на главную сайта kubsu.ru по протоколу https</a></li>
+                            <li class="mb-2"><a href="http://kubsu.ru">Гиперссылка на главную страницу сайта
+                                    kubsu.ru</a></li>
+                            <li class="mb-2"><a href="https://kubsu.ru">Абсолютная ссылка на главную сайта kubsu.ru по
+                                    протоколу https</a></li>
                             <li class="mb-2">
                                 <a id="google-link" href="https://google.com">
-                                    <img class="link-image img-fluid rounded" src="image.jpg" alt="Оранжевый цветок" width="200" height="150">
+                                    <img class="link-image img-fluid rounded" src="image.jpg" alt="Оранжевый цветок"
+                                        width="200" height="150">
                                 </a>
                             </li>
-                            <li class="mb-2"><a href="about/about.html">Относительная ссылка на внутреннюю страницу</a></li>
+                            <li class="mb-2"><a href="about/about.html">Относительная ссылка на внутреннюю страницу</a>
+                            </li>
                             <li class="mb-2"><a href="/">Сокращённая ссылка на главную страницу</a></li>
                             <li class="mb-2"><a href="#formulaire">Ссылка на форму на этой странице</a></li>
-                            <li class="mb-2"><a href="https://kubsu.ru/?param1=value1&amp;param2=value2&amp;param3=value3">Ссылка с тремя параметрами в URL</a></li>
-                            <li class="mb-2"><a href="index.html">Относительная ссылка на страницу в текущем каталоге</a></li>
-                            <li class="mb-2"><a href="about/about.html">Относительная ссылка на страницу в каталоге about</a></li>
-                            <li class="mb-2"><a href="../index.html">Относительная ссылка на страницу уровнем выше</a></li>
-                            <li class="mb-2"><a href="../../index.html">Относительная ссылка на страницу двумя уровнями выше</a></li>
-                            <li class="mb-2"><a href="https://developer.mozilla.org/fr/docs/Web/HTML">Контекстная ссылка на документацию HTML</a></li>
-                            <li class="mb-2"><a href="https://kubsu.ru/#section">Ссылка на фрагмент стороннего сайта</a></li>
-                            <li class="mb-2"><a href="carte.png">Ссылка на изображение с областями-картами (тег map)</a></li>
+                            <li class="mb-2"><a
+                                    href="https://kubsu.ru/?param1=value1&amp;param2=value2&amp;param3=value3">Ссылка с
+                                    тремя параметрами в URL</a></li>
+                            <li class="mb-2"><a href="index.html">Относительная ссылка на страницу в текущем
+                                    каталоге</a></li>
+                            <li class="mb-2"><a href="about/about.html">Относительная ссылка на страницу в каталоге
+                                    about</a></li>
+                            <li class="mb-2"><a href="../index.html">Относительная ссылка на страницу уровнем выше</a>
+                            </li>
+                            <li class="mb-2"><a href="../../index.html">Относительная ссылка на страницу двумя уровнями
+                                    выше</a></li>
+                            <li class="mb-2"><a href="https://developer.mozilla.org/fr/docs/Web/HTML">Контекстная ссылка
+                                    на документацию HTML</a></li>
+                            <li class="mb-2"><a href="https://kubsu.ru/#section">Ссылка на фрагмент стороннего сайта</a>
+                            </li>
+                            <li class="mb-2">Ссылки из прямоугольной и круглой областей картинки (HTML-тег map):
+                                <br>
+                                <img src="carte.png" alt="Здание Кубанского государственного университета"
+                                    usemap="#campus-map" width="200" height="150">
+                                <map name="campus-map">
+                                    <area shape="rect" coords="0,96,1280,160" href="https://kubsu.ru"
+                                        alt="Сайт Кубанского государственного университета" title="Сайт КубГУ">
+                                    <area shape="circle" coords="1060,700,95"
+                                        href="https://www.google.com/maps/search/?api=1&amp;query=Кубанский+государственный+университет"
+                                        alt="Кубанский государственный университет на карте" title="КубГУ на карте">
+                                </map>
+                            </li>
                             <li class="mb-2"><a href="">Ссылка с пустым href</a></li>
                             <li class="mb-2"><a>Ссылка без href</a></li>
-                            <li class="mb-2"><a href="https://kubsu.ru" rel="nofollow">Ссылка, запрещённая для перехода поисковикам</a></li>
-                            <li class="mb-2"><a href="https://kubsu.ru" rel="nofollow">Ссылка, запрещённая для индексации поисковиками</a></li>
+                            <li class="mb-2"><a href="https://kubsu.ru" rel="nofollow">Ссылка, запрещённая для перехода
+                                    поисковикам</a></li>
+                            <li class="mb-2"><a href="https://kubsu.ru" rel="nofollow">Ссылка, запрещённая для
+                                    индексации поисковиками</a></li>
                             <li class="mb-2">
                                 Нумерованный список ссылок с подписями title:
                                 <ol class="mt-2">
                                     <li><a href="https://kubsu.ru" title="Главная страница КубГУ">КубГУ</a></li>
-                                    <li><a href="https://developer.mozilla.org/fr/docs/Web/HTML" title="Документация HTML">MDN HTML</a></li>
+                                    <li><a href="https://developer.mozilla.org/fr/docs/Web/HTML"
+                                            title="Документация HTML">MDN HTML</a></li>
                                 </ol>
                             </li>
                             <li><a href="ftp://example.com/file.txt">Ссылка на файл на сервере FTP</a></li>
@@ -136,36 +162,46 @@
                         <form action="/" method="post" class="row g-3">
                             <div class="col-12 col-md-6">
                                 <label for="full-name" class="form-label">ФИО</label>
-                                <input id="full-name" class="form-control" type="text" name="full-name" placeholder="Самаке Ибрахим" minlength="2" maxlength="100" pattern="\p{L}+(?: \p{L}+|'\p{L}+|-\p{L}+)*" title="Используйте только буквы, пробелы, дефис или апостроф" required>
+                                <input id="full-name" class="form-control" type="text" name="full-name"
+                                    placeholder="Самаке Ибрахим" minlength="2" maxlength="100"
+                                    pattern="\p{L}+(?: \p{L}+|'\p{L}+|-\p{L}+)*"
+                                    title="Используйте только буквы, пробелы, дефис или апостроф" required>
                             </div>
                             <div class="col-12 col-md-6">
                                 <label for="phone" class="form-label">Телефон</label>
-                                <input id="phone" class="form-control" type="tel" name="phone" placeholder="+7 925 023 45 33" inputmode="tel" pattern="\+?(?=.*[0-9])[0-9 ]{7,19}" title="Введите от 7 до 19 цифр, можно со знаком + и пробелами" required>
+                                <input id="phone" class="form-control" type="tel" name="phone"
+                                    placeholder="+7 925 023 45 33" inputmode="tel" pattern="\+?(?=.*[0-9])[0-9 ]{7,19}"
+                                    title="Введите от 7 до 19 цифр, можно со знаком + и пробелами" required>
                             </div>
                             <div class="col-12 col-md-6">
                                 <label for="email" class="form-label">E-mail</label>
-                                <input id="email" class="form-control" type="email" name="email" placeholder="samake@yandex.ru" maxlength="254" required>
+                                <input id="email" class="form-control" type="email" name="email"
+                                    placeholder="samake@yandex.ru" maxlength="254" required>
                             </div>
                             <div class="col-12 col-md-6">
                                 <label for="birth-date" class="form-label">Дата рождения</label>
-                                <input id="birth-date" class="form-control" type="date" name="birth-date" max="2026-09-27" required>
+                                <input id="birth-date" class="form-control" type="date" name="birth-date"
+                                    max="2026-09-27" required>
                             </div>
                             <fieldset class="col-12 col-md-6">
                                 <legend class="form-label">Пол</legend>
                                 <div class="d-flex flex-wrap gap-3">
                                     <div class="form-check">
-                                        <input id="gender-male" class="form-check-input" type="radio" name="sexe" value="homme" required>
+                                        <input id="gender-male" class="form-check-input" type="radio" name="sexe"
+                                            value="homme" required>
                                         <label class="form-check-label" for="gender-male">Мужской</label>
                                     </div>
                                     <div class="form-check">
-                                        <input id="gender-female" class="form-check-input" type="radio" name="sexe" value="femme" required>
+                                        <input id="gender-female" class="form-check-input" type="radio" name="sexe"
+                                            value="femme" required>
                                         <label class="form-check-label" for="gender-female">Женский</label>
                                     </div>
                                 </div>
                             </fieldset>
                             <div class="col-12 col-md-6">
                                 <label for="language" class="form-label">Любимый язык программирования</label>
-                                <input id="language" class="form-control" name="language" list="languages" placeholder="Выберите или введите свой язык" required>
+                                <input id="language" class="form-control" name="language" list="languages"
+                                    placeholder="Выберите или введите свой язык" required>
                                 <datalist id="languages">
                                     <option value="Pascal"></option>
                                     <option value="C"></option>
@@ -182,11 +218,13 @@
                             </div>
                             <div class="col-12">
                                 <label for="biography" class="form-label">Биография</label>
-                                <textarea id="biography" class="form-control" name="biography" placeholder="Расскажите о себе..." maxlength="2000" rows="5" required></textarea>
+                                <textarea id="biography" class="form-control" name="biography"
+                                    placeholder="Расскажите о себе..." maxlength="2000" rows="5" required></textarea>
                             </div>
                             <div class="col-12">
                                 <div class="form-check">
-                                    <input id="agreement" class="form-check-input" type="checkbox" name="contrat" value="oui" required>
+                                    <input id="agreement" class="form-check-input" type="checkbox" name="contrat"
+                                        value="oui" required>
                                     <label class="form-check-label" for="agreement">С контрактом ознакомлен(а)</label>
                                 </div>
                             </div>
